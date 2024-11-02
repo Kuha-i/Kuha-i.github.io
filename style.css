@@ -1,0 +1,162 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
+::-moz-selection {
+  background: #34495e;
+  color: #fff;
+}
+
+::selection {
+  background: #34495e;
+  color: #fff;
+}
+
+.jumbotron {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tri{
+  color: #AAA094;
+}
+
+.icons-color{
+  color: #DB93B0;
+}
+
+.photo-cover {
+  background: #34495e url(https://www.bilimseldunya.com/wp-content/uploads/2022/03/Samanyolu.jpg) no-repeat center center/cover fixed;
+  height: 100%;
+  position: relative;
+}
+
+.background-primary {
+  background: #1a6a89;
+}
+
+.background-secondary {
+  background: #133153;
+}
+
+.large {
+  font-size: 4em;
+}
+
+.medium {
+  font-size: 2em;
+}
+
+/* Header */
+.transparent {
+  background: transparent;
+}
+
+.navbar-inverse {
+  transition: all 0.2s ease-in;
+}
+
+.thumbnail {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+}
+
+.thumbnail-svg {
+  flex: 1 0 auto;
+  padding: 0.5em;
+  max-height: 6em;
+}
+
+.thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #A1E2CF;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+}
+
+.thumbnail:hover .thumbnail-overlay {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+}
+
+.full-screen-agent {
+  background: #a1e4a6 url(file:///C:/Users/M1-ai/Downloads/portfolio-page/portfolio-page/dist/agent.png) no-repeat fixed;
+  background-size: contain; 
+  background-position: 10px center; /* Offset from the left by 20px */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow-y: scroll;
+}
+
+.full-screen-car{
+  background: #a1e4a6 url(https://preview.redd.it/stable-diffusion-dont-like-cars-v0-imk8s1ip5yfa1.jpeg?width=1536&format=pjpg&auto=webp&s=b8caf53b161f23bbf48cc54123c28289e996c0f9) no-repeat center center/cover fixed;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow-y: scroll;
+}
+
+.close-window {
+  cursor: pointer;
+}
+
+.button-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack by default */
+  gap: 1rem;
+}
+/* Adjust for desktop screens */
+@media (min-width: 768px) {
+  .button-wrapper {
+    flex-direction: row; /* Side by side on larger screens */
+    justify-content: center; /* Center buttons */
+  }
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.full-screen-agent .button-container,
+.full-screen-car .button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.highlight-text {
+  background-color: rgb(107, 97, 90); /* Or any other color you prefer */
+  padding: 0.2em 0.4em;
+  border-radius: 4px; /* Optional, to soften edges */
+}
