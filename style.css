@@ -95,7 +95,7 @@ main {
 }
 
 .full-screen-agent {
-  background: #a1e4a6 url(file:///C:/Users/M1-ai/Downloads/portfolio-page/portfolio-page/dist/agent.png) no-repeat fixed;
+  background: #a1e4a6 url(agent.png) no-repeat fixed;
   background-size: contain; 
   background-position: 10px center; /* Offset from the left by 20px */
   height: 100%;
