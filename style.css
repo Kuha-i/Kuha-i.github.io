@@ -36,11 +36,12 @@ main {
 }
 
 .photo-cover {
-  background: #34495e url(https://www.bilimseldunya.com/wp-content/uploads/2022/03/Samanyolu.jpg) no-repeat center center/cover fixed;
+  background: #34495e url(https://en.wikipedia.org/wiki/Tarantula_Nebula#/media/File:Tarantula_Nebula_by_JWST.jpg ) no-repeat center center/cover fixed;
   height: 100%;
   position: relative;
-}
-
+} 
+/* https://www.bilimseldunya.com/wp-content/uploads/2022/03/Samanyolu.jpg */
+/* https://en.wikipedia.org/wiki/Tarantula_Nebula#/media/File:Tarantula_Nebula_by_JWST.jpg */
 .background-primary {
   background: #1a6a89;
 }
